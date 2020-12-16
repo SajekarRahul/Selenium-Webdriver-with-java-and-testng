@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11339" started-at="2020-12-15T17:36:04 IST" finished-at="2020-12-15T17:36:15 IST">
+  <suite name="Default suite" duration-ms="21504" started-at="2020-12-16T10:44:32 IST" finished-at="2020-12-16T10:44:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11339" started-at="2020-12-15T17:36:04 IST" finished-at="2020-12-15T17:36:15 IST">
-      <class name="com.herokuapp.internet.PositiveTests">
-        <test-method status="PASS" signature="loginTests()[pri:0, instance:com.herokuapp.internet.PositiveTests@6737fd8f]" name="loginTests" duration-ms="11287" started-at="2020-12-15T17:36:04 IST" finished-at="2020-12-15T17:36:15 IST">
+    <test name="Default test" duration-ms="21504" started-at="2020-12-16T10:44:32 IST" finished-at="2020-12-16T10:44:54 IST">
+      <class name="com.herokuapp.internet.NegativeTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.internet.NegativeTests@6c49835d]" name="setup" is-config="true" duration-ms="7340" started-at="2020-12-16T10:44:32 IST" finished-at="2020-12-16T10:44:39 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTests -->
-      </class> <!-- com.herokuapp.internet.PositiveTests -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="IncorrectUsername()[pri:1, instance:com.herokuapp.internet.NegativeTests@6c49835d]" name="IncorrectUsername" duration-ms="3024" started-at="2020-12-16T10:44:39 IST" finished-at="2020-12-16T10:44:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.NegativeTests@6c49835d]" name="tearDown" is-config="true" duration-ms="1125" started-at="2020-12-16T10:44:42 IST" finished-at="2020-12-16T10:44:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.internet.NegativeTests@6c49835d]" name="setup" is-config="true" duration-ms="6215" started-at="2020-12-16T10:44:44 IST" finished-at="2020-12-16T10:44:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="IncorrectPassword()[pri:2, instance:com.herokuapp.internet.NegativeTests@6c49835d]" name="IncorrectPassword" duration-ms="3087" started-at="2020-12-16T10:44:50 IST" finished-at="2020-12-16T10:44:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.NegativeTests@6c49835d]" name="tearDown" is-config="true" duration-ms="655" started-at="2020-12-16T10:44:53 IST" finished-at="2020-12-16T10:44:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.internet.NegativeTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
